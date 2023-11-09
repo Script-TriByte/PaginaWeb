@@ -87,7 +87,9 @@
   "1": "CONTACTO",
   "2": "Correo Electrónico:",
   "3": "Contraseña:",
-  "4": "Ingrese sus datos para confirmar su identidad."
+  "4": "Ingrese sus datos para",
+  "5": "confirmar su identidad.",
+  "6": "Iniciar Sesión"
 },
 {
   "0": "ACERCA DE",

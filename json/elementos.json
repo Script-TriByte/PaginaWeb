@@ -66,12 +66,12 @@
     "1": "contacto",
     "2": "cerrarSesion",
     "3": "name",
-    "4": "aterisco",
+    "4": "asterisco1",
     "5": "tel",
     "6": "correo",
-    "7": "aterisco",
+    "7": "asterisco2",
     "8": "texto",
-    "9": "aterisco",
+    "9": "asterisco3",
     "10": "botonEnviar"
 },
 {
@@ -79,7 +79,9 @@
     "1": "contacto",
     "2": "correo",
     "3": "contra",
-    "4": "mensajeLogin"
+    "4": "mensajeLogin",
+    "5": "mensLogin",
+    "6": "botonIniciarSesion"
 },
 {
     "0": "acercaDe",

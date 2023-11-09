@@ -21,12 +21,19 @@ body{
     width: 50%;
 }
 
-#mensajeLogin{
+.mensaje{
     position: absolute;
-    bottom: 8%;
-    left: calc(25% - 150px);
+    width: fit-content;
+    bottom: 18%;
+    left: 9%;
     font-size: 30px;
     text-align: center;
+    display: block;
+}
+
+#mensajeLogin{
+    bottom: 26%;
+    left: 9.5%;
 }
 
 .contenedorLogin{
@@ -47,7 +54,6 @@ body{
     border: solid 3px #fddfb5;
     border-radius: 5px;
     color: #fddfb5;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 #verContrasenia{

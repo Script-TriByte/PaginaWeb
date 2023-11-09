@@ -87,7 +87,9 @@
   "1": "CONTACT",
   "2": "Email:",
   "3": "Password:",
-  "4": "Enter your details to confirm your identity."
+  "4": "Enter your details to",
+  "5": "confirm your identity.",
+  "6": "Log In"
 },
 {
   "0": "ABOUT",

@@ -55,11 +55,9 @@ $(document).ready(function () {
 
         for (let posicion = 0; posicion < Object.keys(arrayDeTextos2).length; posicion++){
             let texto = document.getElementById(arrayDeTextos2[posicion])
-            if (texto.nodeName == "INPUT"){
-                texto.placeholder = arrayDeIdioma[posicion]
-            } else {
+            console.log(texto)
                 texto.textContent = arrayDeIdioma[posicion]
-            }
+            
         }
     })
 

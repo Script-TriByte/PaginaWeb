@@ -37,16 +37,16 @@
   </header>
       <div class="formulario">
         <form id="formularioContacto" method="post" action="../../php/correo.php">
-            <label for="nombre" id="name">NOMBRE <label id="aterisco">*</label></label>
+            <label for="nombre" id="name">NOMBRE</label><label id="asterisco1">*</label>
             <input type="text" id="nombre" name="nombre" required>
 
             <label for="telefono" id="tel">TELÉFONO</label>
             <input type="number" id="telefono" name="telefono">
 
-            <label for="email" id="correo">CORREO ELECTRÓNICO <label id="aterisco">*</label></label>
+            <label for="email" id="correo">CORREO ELECTRÓNICO</label><label id="asterisco2">*</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="mensaje" id="texto">MENSAJE <label id="aterisco">*</label></label>
+            <label for="mensaje" id="texto">MENSAJE</label><label id="asterisco3">*</label>
             <textarea id="mensaje" name="mensaje" rows="10" required></textarea>
 
             <button type="submit" id="botonEnviar"><b>ENVIAR</b></button>
