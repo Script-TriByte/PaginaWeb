@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Script TriByte">
+    <title>E.L.S - Efficient Logistic Software</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/css/headerStyle.css">
+    <link rel="stylesheet" href="/css/clasesGlobales.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="/img/iconoPestana.png">
+</head>
+<body>
+    <header class="textoClaro">
+      <a href="/"><img class="logo" src="/img/Logo del Sistema.png"></a>
+      <nav>
+        <ul class="menu">
+          <li class="cambioCursor"><a href="/">HOME</a></li>
+          <li><a href="/html/opcionesHeader/acercaDe.html" id="acercaDe">ACERCA DE</a></li>
+          <li class="cambioCursor"><a href="/html/opcionesHeader/contacto.html" id="contacto">CONTACTO</a></li>
+          <li><div class="boton textoClaro cambioCursor divEnHeader" id="idiomaDelSistema"></div></li>
+          <li><div class="boton textoClaro cambioCursor divEnHeader" id="aparienciaDelSistema"></div></li>
+          <li>
+            <div id="contenedorUsuario">
+              <img class="usuario" id="iconoUsuario" src="/img/iconoUsuario.png">
+              <button class="boton textoClaro">NOMBRE DEL USUARIO</button>
+              <ul class="submenu">
+                <li><img class="salir" id="iconoSalida" src="/img/iconoSalir.png">
+                  <a href="/html/login.html" id="cerrarSesion">CERRAR SESIÓN</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contenedorInformacion">
+      <h1 class="textoClaro" id="nombreAplicacion">NOMBRE DE LA APLICACIÓN</h1>
+      <p class="textoClaro" id="informacionApp">Información de la Aplicación</p>
+      <a href="#" id="accesoAplicacion"><button class="textoClaro cambioCursor" id="accederAplicacion"><b>ACCEDER</b></button></a>
+    </div>
+    <div class="flecha cambioCursor" id="derecha"></div>
+    <div class="flecha cambioCursor" id="izquierda"></div>
+    <footer class="textoClaro centrarTexto">
+      <div class="contenedorAtajo cambioCursor" id="appAlmacen">
+        <img class="iconoAtajo" src="/img/iconoAlmacen.png">
+        <label class="nombreAtajo cambioCursor">App de Almacén</label>
+      </div>
+      <div class="contenedorAtajo cambioCursor" id="appChoferes">
+        <img class="iconoAtajo" src="/img/iconoCamion.png">
+        <label class="nombreAtajo cambioCursor">App de Camión</label>
+      </div>
+      <div class="contenedorAtajo cambioCursor" id="appSeguimiento">
+        <img class="iconoAtajo" src="/img/iconoSeguimiento.png">
+        <label class="nombreAtajo cambioCursor">App de Seguimiento</label>
+      </div>
+      <div class="contenedorAtajo cambioCursor" id="appBackoffice">
+        <img class="iconoAtajo" src="/img/iconoBackoffice.png">
+        <label class="nombreAtajo cambioCursor">BackOffice de Administración</label>
+      </div>
+    </footer>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="/js/variables.js"></script>
+</body>
+</html>
