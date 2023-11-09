@@ -60,5 +60,24 @@
   "5": "Truck App",
   "6": "Tracking App",
   "7": "Administration BackOffice"
-}
-]
+},
+{
+  "0": "ABOUT",
+  "1": "CONTACT",
+  "2": "LOG OUT",
+  "3": "NAME",
+  "4": "*",
+  "5": "PHONE:",
+  "6": "EMAIL ",
+  "7": "*",
+  "8": "MESSAGE ",
+  "9": "*",
+  "10": "SEND"
+},
+{
+  "0": "ABOUT",
+  "1": "CONTACT",
+  "2": "Email:",
+  "3": "Password:",
+  "4": "Enter your details to confirm your identity."
+}]

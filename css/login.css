@@ -23,7 +23,7 @@ body{
 
 #mensajeLogin{
     position: absolute;
-    bottom: 15%;
+    bottom: 8%;
     left: calc(25% - 150px);
     font-size: 30px;
     text-align: center;

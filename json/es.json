@@ -60,4 +60,37 @@
   "5": "App de Camión",
   "6": "App de Seguimiento",
   "7": "BackOffice de Administración"
+},
+{
+  "0": "ACERCA DE",
+  "1": "CONTACTO",
+  "2": "CERRAR SESIÓN",
+  "3": "NOMBRE",
+  "4": "*",
+  "5": "TELÉFONO:",
+  "6": "CORREO ELECTRÓNICO ",
+  "7": "*",
+  "8": "MENSAJE ",
+  "9": "*",
+  "10": "ENVIAR"
+},
+{
+  "0": "ACERCA DE",
+  "1": "CONTACTO",
+  "2": "CERRAR SESIÓN",
+  "3": "NOMBRE",
+  "4": "*",
+  "5": "TELÉFONO:",
+  "6": "CORREO ELECTRÓNICO ",
+  "7": "*",
+  "8": "MENSAJE ",
+  "9": "*",
+  "10": "ENVIAR"
+},
+{
+  "0": "ACERCA DE",
+  "1": "CONTACTO",
+  "2": "Correo Electrónico:",
+  "3": "Contraseña:",
+  "4": "Ingrese sus datos para confirmar su identidad."
 }]
