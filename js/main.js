@@ -11,8 +11,13 @@ if (aplicacionActual === "Almacen"){
 }
 
 function revelarAplicacionAlmacen(){
-  $("#nombreAplicacion").html("APLICACIÓN DE GESTIÓN <br> DE ALMACENES");
-  $("#informacionApp").html("Gestione los artículos de su almacén, así como los paquetes y lotes con los que trabajar.");
+  fetch('/' + ruta)
+  .then(response => response.json())
+  .then(data => {
+    const arrayDeTextos = data[5]
+    $("#nombreAplicacion").html(arrayDeTextos[8])
+    $("#informacionApp").html(arrayDeTextos[12])
+  })
   $("#accesoAplicacion").attr("href", "/html/aplicaciones/appAlmacenes.html");
   $(".contenedorInformacion").css("background-image", "url(/img/BGAlmacen.png)");
 
@@ -22,8 +27,13 @@ function revelarAplicacionAlmacen(){
 }
 
 function revelarAplicacionCamiones(){
-  $("#nombreAplicacion").html("APLICACIÓN DE GESTIÓN <br> DE CAMIONES");
-  $("#informacionApp").html("Observe el contenido de su vehículo, así como sus entregas pendientes y destinos a cargar.");
+  fetch('/' + ruta)
+  .then(response => response.json())
+  .then(data => {
+    const arrayDeTextos = data[5]
+    $("#nombreAplicacion").html(arrayDeTextos[9])
+    $("#informacionApp").html(arrayDeTextos[13])
+  })
   $("#accesoAplicacion").attr("href", "/html/aplicaciones/appCamiones.html");
   $(".contenedorInformacion").css("background-image", "url(/img/BGCamiones.png)");
 
@@ -34,8 +44,13 @@ function revelarAplicacionCamiones(){
 }
 
 function revelarAplicacionSeguimiento(){
-  $("#nombreAplicacion").html("APLICACIÓN DE <br> SEGUIMIENTO");
-  $("#informacionApp").html("Observe la lista de paquetes con destinos establecidos, con su respectiva información asignada.");
+  fetch('/' + ruta)
+  .then(response => response.json())
+  .then(data => {
+    const arrayDeTextos = data[5]
+    $("#nombreAplicacion").html(arrayDeTextos[10])
+    $("#informacionApp").html(arrayDeTextos[14])
+  })
   $("#accesoAplicacion").attr("href", "/html/aplicaciones/appSeguimiento.html");
   $(".contenedorInformacion").css("background-image", "url(/img/BGSeguimiento.png)");
 
@@ -46,8 +61,13 @@ function revelarAplicacionSeguimiento(){
 }
 
 function revelarBackoffice(){
-  $("#nombreAplicacion").html("BACKOFFICE DE <br> ADMINISTRACIÓN");
-  $("#informacionApp").html("Gestione los Usuarios del Sistema, así como todos los Almacenes y Vehículos en disposición.");
+  fetch('/' + ruta)
+  .then(response => response.json())
+  .then(data => {
+    const arrayDeTextos = data[5]
+    $("#nombreAplicacion").html(arrayDeTextos[11])
+    $("#informacionApp").html(arrayDeTextos[15])
+  })
   $("#accesoAplicacion").attr("href", "/html/aplicaciones/appBackOffice.html");
   $(".contenedorInformacion").css("background-image", "url(/img/BGBackoffice.png)");
 
@@ -130,7 +150,7 @@ $('#idiomaDelSistema').click(function(){
   }
 });
 
-/*$(document).ready(function () {
+$(document).ready(function () {
   if(document.cookie.indexOf("lang=en") !== -1){
       $('#idiomaDelSistema').css('background-image', 'url(/img/banderaUK.png)')
   } else {
@@ -146,12 +166,8 @@ $('#idiomaDelSistema').click(function(){
 
       for (let posicion = 0; posicion < Object.keys(arrayDeTextos2).length; posicion++){
           let texto = document.getElementById(arrayDeTextos2[posicion])
-          if (texto.nodeName == "INPUT"){
-              texto.placeholder = arrayDeIdioma[posicion]
-          } else {
-              texto.textContent = arrayDeIdioma[posicion]
-          }
+          texto.textContent = arrayDeIdioma[posicion]
       }
   })
 
-});*/
+});

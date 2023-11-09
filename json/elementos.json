@@ -55,6 +55,16 @@
     "0": "acercaDe",
     "1": "contacto",
     "2": "cerrarSesion",
+    "3": "accederAplicacion",
+    "4": "atajoAlmacen",
+    "5": "atajoCamion",
+    "6": "atajoSeguimiento",
+    "7": "atajoBackoffice"
+},
+{
+    "0": "acercaDe",
+    "1": "contacto",
+    "2": "cerrarSesion",
     "3": "name",
     "4": "aterisco",
     "5": "tel",
@@ -70,5 +80,15 @@
     "2": "correo",
     "3": "contra",
     "4": "mensajeLogin"
+},
+{
+    "0": "acercaDe",
+    "1": "contacto",
+    "2": "cerrarSesion",
+    "3": "qDescripcion",
+    "4": "quDescripcion",
+    "5": "sDescripcion",
+    "6": "scDescripcion",
+    "7": "scrDescripcion"
 }
 ]

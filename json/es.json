@@ -59,20 +59,15 @@
   "4": "App de Almacén",
   "5": "App de Camión",
   "6": "App de Seguimiento",
-  "7": "BackOffice de Administración"
-},
-{
-  "0": "ACERCA DE",
-  "1": "CONTACTO",
-  "2": "CERRAR SESIÓN",
-  "3": "NOMBRE",
-  "4": "*",
-  "5": "TELÉFONO:",
-  "6": "CORREO ELECTRÓNICO ",
-  "7": "*",
-  "8": "MENSAJE ",
-  "9": "*",
-  "10": "ENVIAR"
+  "7": "BackOffice de Administración",
+  "8": "APLICACIÓN DE GESTIÓN DE ALMACENES",
+  "9": "APLICACIÓN DE GESTIÓN DE CAMIONES",
+  "10": "APLICACIÓN DE SEGUIMIENTO",
+  "11": "BACKOFFICE DE ADMINISTRACIÓN",
+  "12": "Gestione los artículos de su almacén, así como los paquetes y lotes con los que trabajar.",
+  "13": "Observe el contenido de su vehículo, así como sus entregas pendientes y destinos a cargar.",
+  "14": "Observe la lista de paquetes con destinos establecidos, con su respectiva información asignada.",
+  "15": "Gestione los Usuarios del Sistema, así como todos los Almacenes y Vehículos en disposición."
 },
 {
   "0": "ACERCA DE",
@@ -93,4 +88,14 @@
   "2": "Correo Electrónico:",
   "3": "Contraseña:",
   "4": "Ingrese sus datos para confirmar su identidad."
+},
+{
+  "0": "ACERCA DE",
+  "1": "CONTACTO",
+  "2": "CERRAR SESIÓN",
+  "3": "La empresa QUICK CARRY se dedica al transporte de paquetería en distribución nacional con una presencia en la proximidad de las principales ciudades y centros poblados en la mayoría de los departamentos de Uruguay.",
+  "4": "Un cliente importante para QUICK CARRY es CRECOM, compañía de distribución de Venta Flash en e-Commerce. CRECOM tiene la plataforma central en una zona industrial de las proximidades de Montevideo.",
+  "5": "“Script TriByte” es una empresa centrada principalmente en el desarrollo de software en Uruguay para todo público. Con el objetivo de crear programas que faciliten los medios de trabajo de nuestros clientes.",
+  "6": "En lo que respecta a nuestro nombre, la palabra “Script” sugiere una relación con el software y la programación, mientras que “TriByte” está haciendo referencia al almacenamiento de datos en formato de bytes.",
+  "7": "También posee relación con la idea de tres personas, siendo estas los fundadores de la empresa, trabajando en equipo para lograr los objetivos de la empresa, esto con el fin de transmitir los valores del trabajo en equipo y compromiso con el éxito colectivo."
 }]
