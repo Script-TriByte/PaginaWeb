@@ -53,3 +53,28 @@ label{
 #aterisco{
     color: red;
 }
+
+@media screen and (max-width: 768px) {
+    .formulario{
+        width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .formulario{
+        width: 70%;
+    }
+
+    input, textarea{
+        width: 60%;
+        margin-left: 15%;
+    }
+
+    #botonEnviar{
+        width: 80%;
+    }
+
+    iframe{
+        width: 70%;
+    }
+  }
