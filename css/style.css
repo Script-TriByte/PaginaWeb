@@ -118,3 +118,53 @@ footer{
       padding: 0px;
     }
 }
+
+@media screen and (max-width: 768px) {
+  .contenedorInformacion{
+    width: 80%;
+    top: 18%;
+  }
+
+  #accederAplicacion{
+    font-size: 15px;
+  }
+
+  .flecha{
+    width: 5%;
+    height: 5%;
+  }
+
+  footer{
+    height: 5%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .contenedorInformacion{
+    width: 60%;
+    top: 18%;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .flecha{
+    width: 5%;
+    height: 5%;
+  }
+
+  #derecha{
+    right: 10px;
+  }
+  
+  #izquierda{
+    transform: rotate(180deg);
+    left: 4%;
+  }
+
+  #accederAplicacion{
+    font-size: 15px;
+    left: 10px;
+  }
+}
