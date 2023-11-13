@@ -79,3 +79,68 @@ body{
 .divEnHeader{
     margin-top: 0px;
 }
+
+@media screen and (max-width: 768px) {
+    #logoLogin{
+        width: 40%;
+        margin-left: 8%;
+    }
+
+    .mensaje{
+        width: 25%;
+        font-size: 23px;
+    }
+
+    #mensajeLogin{
+        top: 40%;
+        left: 15%;
+    }
+
+    #mensLogin{
+        left: 15%;
+        top: 58%;
+    }
+
+    label{
+        margin-right: 10%;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    #botonIniciarSesion{
+        font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    #logoLogin{
+        width: 50%;
+        margin-left: 8%;
+        margin-top: -20%;
+    }
+
+    .contenedorInformacionLogin{
+        height: 60%;
+    }
+
+    .mensaje{
+        display: none;
+    }
+
+    label{
+        margin-top: 80%;
+        margin-left: -10%;
+    }
+
+    input{
+        width: 80%;
+        margin-right: 50%;
+        margin-top: 40%;
+    }
+
+    #botonIniciarSesion{
+        font-size: 20px;
+    }
+  }

@@ -16,6 +16,9 @@
     <header class="textoClaro">
         <a href="/"><img class="logo" src="/img/Logo del Sistema.png"></a>
         <nav>
+            <div class="menu-icon" onclick="menu()">
+                <img src="/img/iconoMenu.png" alt="Menú">
+            </div>
           <ul class="menu">
             <li class="cambioCursor"><a href="/">HOME</a></li>
             <li><a href="/html/opcionesHeader/acercaDe.html" id="acercaDe">ACERCA DE</a></li>
@@ -24,6 +27,12 @@
             <li><div class="boton textoClaro cambioCursor divEnHeader" id="aparienciaDelSistema"></div></li>
           </ul>
         </nav>
+        <script>
+            function menu() {
+            var menu = document.querySelector('nav ul');
+            menu.classList.toggle('active');
+      }
+          </script>
     </header>
     <div class="contenedorInformacionLogin">
         <img id="logoLogin" src="/img/Logo del Sistema.png">
