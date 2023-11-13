@@ -116,7 +116,7 @@ body{
   
   @media screen and (max-width: 320px){
     #logoLogin{
-        width: 50%;
+        width: 80%;
         margin-left: 8%;
         margin-top: -20%;
     }
@@ -129,18 +129,9 @@ body{
         display: none;
     }
 
-    label{
-        margin-top: 80%;
-        margin-left: -10%;
-    }
-
-    input{
-        width: 80%;
-        margin-right: 50%;
-        margin-top: 40%;
-    }
-
-    #botonIniciarSesion{
-        font-size: 20px;
+    .contenedorLogin{
+        position: absolute;
+        top:5%;
+        right: 45%;
     }
   }
