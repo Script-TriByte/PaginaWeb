@@ -1,24 +1,31 @@
 import { ruta } from "./variables.js";
 
-/*document.getElementById('formularioContacto').addEventListener('submit', function (e) {
-    e.preventDefault();
+//https://formspree.io/f/xeqbwgjd
 
-    fetch('../../php/correo.php', {
+const form = document.getElementById('formularioContacto')
+
+async function handleSendEmail(event){
+    event.preventDefault()
+
+    const fd = new FormData(this)
+
+    const response = await fetch ('https://formspree.io/f/xeqbwgjd', {
         method: 'POST',
-        body: new FormData(this)
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            alert("Si");
-        } else {
-            alert("Hubo un error al enviar el formulario. Por favor, inténtelo de nuevo más tarde.");
+        body: fd,
+        headers: {
+            Accept: 'application/json'
         }
     })
-    .catch(error => {
-        alert(error);
-    });
-});*/
+
+    if (response.ok){
+        this.reset()
+        alert('Mensaje enviado')
+    }else{
+        alert('Error al enviar el mensaje')
+    }
+}
+
+form.addEventListener('submit', handleSendEmail);
 
 
 function aplicarIngles() {
