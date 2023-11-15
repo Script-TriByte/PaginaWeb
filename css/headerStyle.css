@@ -80,11 +80,11 @@ a{
     border: solid 3px #fddfb5;
     opacity: 70%;
 }
-  
+
 #idiomaDelSistema:hover{
     opacity: 100%;
 }
-  
+
 #aparienciaDelSistema{
     background-image: url(../img/iconoModoOscuro.png);
     width: 25px;
