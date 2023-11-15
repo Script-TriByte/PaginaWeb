@@ -54,6 +54,16 @@ label{
     color: red;
 }
 
+#iconoUsuario{
+    position: static;
+    margin-bottom: 4%;
+}
+
+#idiomaDelSistema{
+    position: absolute;
+    margin-top: 18px;
+}
+
 @media screen and (max-width: 768px) {
     .formulario{
         width: 70%;
